@@ -190,4 +190,8 @@ if (typeof Mozilla == 'undefined') {
 	Mozilla.UITour.showFirefoxAccounts = function() {
 		_sendEvent('showFirefoxAccounts');
 	};
+
+	Mozilla.UITour.resetFirefox = function() {
+		_sendEvent('resetFirefox');
+	};
 })();
